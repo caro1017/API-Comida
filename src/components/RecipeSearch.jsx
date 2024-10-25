@@ -48,7 +48,7 @@ export const RecipeSearch = () => {
   };
 
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center -mt-64 md:-mt-20">
       <SearchBar
         onSearch={handleSearch}
         onSearchByFirstLetter={handleSearchByFirstLetter}
