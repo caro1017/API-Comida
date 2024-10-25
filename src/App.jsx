@@ -1,12 +1,15 @@
-import { Header } from "./components/Header"
+import { Footer } from "./components/Footer";
+import { Header } from "./components/Header";
+import { RecipeSearch } from "./components/RecipeSearch";
 
 function App() {
-
   return (
     <>
-      <Header/>
+      <Header />
+      <RecipeSearch />
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
